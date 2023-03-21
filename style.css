@@ -31,10 +31,7 @@ hr{
     margin-left: 20px;
     margin-right: 20px; 
 }
-.option{
 
-
-}
 
 button{
     text-align: left;
@@ -46,26 +43,54 @@ button{
 }
 
 .user-chat  {
-    flex: 1;
-    text-align: center;
-    justify-content: center;
-    align-items:center ;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items:center ;
     
 
 }
-.examples-text{
 
+h1{
+  display: flex;
+
+  justify-content: center;
+  align-items:center ;
+}
+.examples-text{
+  max-width: 75%;
   display: flex;
   justify-content: center;
   align-items:center ;
   flex-direction: row;
-
-
-
+  padding: 20px;
+  
 }
 .example{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+  flex: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 10px;
+  margin: 2px;
 
+}
+h2.example-title {
+  font-weight: normal;
+}
+.example-text{
+  padding: 10px;
+  margin: 10px;
+  background-color: #f7f7f8;
+
+}
+
+textarea{
+  box-sizing: border-box;
+  resize: none;
+  width: 100%;
+  border:solid 1px #8e8ea0;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
 }
