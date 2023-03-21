@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+  }
+  body {
+    display: flex;
+    min-height: 100%;
+    background-color: white;
+  }
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #202123;
+    height: 100%;
+}
+.sidebar-chat{
+    height: 100%;
+}
+ol li{
+    list-style-type: none;
+    color: #c3c3c8;
+    padding: 10px;
+
+  }
+hr{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+.option{
+
+
+}
+
+button{
+    text-align: left;
+    background-color: rgb(48, 41, 41);
+    color: white;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+}
