@@ -3,6 +3,9 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
   }
+  h1{
+    font-size: 35px;
+  }
   body {
     display: flex;
     min-height: 100%;
@@ -40,4 +43,29 @@ button{
     padding: 10px;
     width: 90%;
     border-radius: 4px;
+}
+
+.user-chat  {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+    
+
+}
+.examples-text{
+
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: row;
+
+
+
+}
+.example{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
 }
